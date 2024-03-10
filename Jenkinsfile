@@ -11,7 +11,7 @@ pipelins{
   stages{
     stage('Git checkout'){
       step {
-        git branch: 'main' , url 
+        git branch: 'main' , url: 'https://github.com/Nethravathi-R/Install_terraform_using_Docker.git'
       }
     }
     stage ('terraform init'){
